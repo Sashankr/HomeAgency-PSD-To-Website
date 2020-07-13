@@ -1,0 +1,57 @@
+#section3
+{
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 878px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+$getStartedH2Color : #ffffff;
+$getStartedH2Size: 78px;
+
+$getStartedParaColor: #a3b1bf;
+$getStartedParaSize: 24px;
+
+$buttonBgColor: #00bc9c;
+$buttonSize: 18px;
+$buttonColor: #ffffff;
+
+div#getStarted
+{
+  text-align: center;
+  h2
+  {
+    font-family: $LatoBlack;
+    color: $getStartedH2Color;
+    font-size: $getStartedH2Size;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+  }
+
+  p
+  {
+    font-family: $SourceSansPro-Regular;
+    font-size: $getStartedParaSize;
+    color: $getStartedParaColor;
+    margin-bottom: 60px;
+  }
+
+  button.btn
+  {
+    padding: 20px 45px;
+    font-family: $SourceSansPro-Bold;
+    font-size: $buttonSize;
+    color: $buttonColor;
+    background-color: $buttonBgColor;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+
+}

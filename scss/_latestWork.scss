@@ -1,0 +1,55 @@
+$section5BG: #f2f5f7;
+#section5
+{
+  padding: 60px 0px;
+  background-color: $section5BG;
+}
+
+$latestInfoH2Size: 44px;
+$latestInfoParaSize: 22px;
+#latestInfo
+{
+  text-align: center;
+  margin-bottom: 80px;
+
+  h2
+  {
+    font-family: $LatoBlack;
+    color: $headingColor;
+    font-size: $latestInfoH2Size;
+  }
+  p
+  {
+    color: $paraColor;
+    font-family: $SourceSansPro-Regular;
+    font-size: $latestInfoParaSize;
+    margin-top: 45px;
+  }
+}
+
+#latestInfoCards
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.CardInfo
+{
+  text-align: center;
+  margin-right: 20px;
+  border: 1px solid white;
+  box-shadow: 5px 5px 5px #dedbdb;
+  h2
+  {
+    font-family: $LatoBlack;
+    color: $headingColor;
+    padding-top:40px;
+    padding-bottom: 20px;
+  }
+  p
+  {
+    padding-bottom:30px;
+    color: $paraColor;
+    font-family: $SourceSansPro-Regular;
+  }
+}

@@ -1,0 +1,11 @@
+$paddingReset : 0;
+$marginReset : 0;
+$boxSizing: border-box;
+
+
+*
+{
+  padding: $paddingReset;
+  margin: $marginReset;
+  box-sizing: $boxSizing;
+}

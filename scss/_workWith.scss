@@ -1,0 +1,34 @@
+#section6
+{
+  padding: 60px 0px;
+}
+
+#workWithUs
+{
+  text-align: center;
+  h2
+  {
+    color: $headingColor;
+    font-family: $LatoBlack;
+    font-size: 44px;
+  }
+  p
+  {
+    color:$paraColor;
+    font-family: $SourceSansPro-Regular;
+    font-size: 22px;
+    margin: 40px 0px;
+  }
+
+  button.btn-touch
+  {
+    padding: 20px 45px;
+    font-family: $SourceSansPro-Bold;
+    font-size: $buttonSize;
+    color: $buttonColor;
+    background-color: $buttonBgColor;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
