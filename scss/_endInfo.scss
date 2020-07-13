@@ -1,0 +1,171 @@
+$section7BG: #2f4052;
+
+#section7
+{
+  padding: 70px 0px;
+  background-color: $section7BG;
+}
+#endInfo
+{
+  display: flex;
+  
+}
+
+.endInfoImages
+{
+  display: flex;
+}
+$endInfoHeadingColor: #ffffff;
+$endInfoHeadingSize: 16px;
+$endInfoParaSize: 14px;
+
+#endInfo1
+{
+  margin-right: 8px;
+  h2
+  {
+    color: $endInfoHeadingColor;
+    font-family: $LatoBlack;
+    font-size: $endInfoHeadingSize;
+    margin-bottom: 25px;
+  }
+
+  h3#head3
+  {
+    font-family: $SourceSansPro-Bold!important;
+    color: $paraColor!important;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  i
+  {
+    color: $paraColor;
+    cursor: pointer;
+  }
+
+  p
+  {
+    font-family: $SourceSansPro-Regular;
+    color: $paraColor;
+    margin: 25px 0;
+    width: 36ch;
+    font-size: $endInfoParaSize;
+  }
+}
+
+#endInfo2
+{
+  margin-right: 8px;
+  h2
+  {
+    color: $endInfoHeadingColor;
+    font-family: $LatoBlack;
+    font-size: $endInfoHeadingSize;
+    margin-bottom: 25px;
+  }
+
+  p
+  {
+    font-family: $SourceSansPro-Regular;
+    color: $paraColor;
+    margin: 25px 0;
+    font-size: $endInfoParaSize;
+  }
+  
+  .endInfoImages
+  {
+    img
+    {
+      margin: 0px 5px 10px;
+    }
+  }
+}
+
+#endInfo3
+{
+  margin-right: 8px;
+  h2
+  {
+    color: $endInfoHeadingColor;
+    font-family: $LatoBlack;
+    font-size: $endInfoHeadingSize;
+    margin-bottom: 25px;
+  }
+
+
+  p
+  {
+    font-family: $SourceSansPro-Regular;
+    color: $paraColor;
+    margin: 25px 0;
+    font-size: $endInfoParaSize;
+  }
+
+  p.addressInfo
+  {
+    font-family: $SourceSansPro-Regular;
+    color: $paraColor;
+    margin:unset;
+    padding-bottom: 10px;
+    font-size: $endInfoParaSize;
+
+    i, img
+    {
+      margin-right: 15px;
+    }
+
+  }
+}
+
+#endInfo4
+{
+  h2
+  {
+    color: $endInfoHeadingColor;
+    font-family: $LatoBlack;
+    font-size: $endInfoHeadingSize;
+    margin-bottom: 25px;
+  }
+
+  p
+  {
+    font-family: $SourceSansPro-Regular;
+    color: $paraColor;
+    margin: 25px 0;
+    font-size: $endInfoParaSize;
+  }
+
+}
+
+div#subscribe
+{
+  position: relative;
+  input
+  {
+    padding: 15px;
+    background-color: #4e5c6c;
+    border: none;
+    outline: unset;
+    color: #ffffff;
+  }
+  input::placeholder
+  {
+    font-family: $SourceSansPro-Bold;
+  }
+
+  button
+  {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    background-color: #00bc9c;
+    font-family: "source_sans_probold";
+    color: #ffffff;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,87 @@
+$h2Fonts: $SourceSansPro-Bold;
+$h2Sizes: 44px;
+$h1Sizes:50px;
+$h2Colors: #ffffff;
+$paraFonts: $SourceSansPro-Regular;
+$paraSizes: 22px;
+$paraColors: #707e8c;
+
+#portfolioInfo, #blogInfo, #pagesInfo, #featuresInfo, #megaInfo, #contactInfo
+{
+  min-height: 100vh;
+  background-color: #283645;
+  padding: 50px 0;
+
+  h1
+  {
+    font-size: $h1Sizes;
+    font-family: $h2Fonts;
+    font-size: $h2Sizes;
+    color: $h2Colors;
+    margin-bottom: 30px;
+  }
+
+  h2
+  {
+    font-size: $h2Sizes;
+    font-family: $h2Fonts;
+    font-size: $h2Sizes;
+    color: $h2Colors;
+    margin-bottom: 30px;
+  }
+  p
+  { 
+    font-size: $paraSizes;
+    font-family: $paraFonts;
+    font-size: $paraSizes;
+    color: $paraColors;
+    width: 65ch;
+    margin-bottom: 20px;
+
+    label
+    {
+      display: block;
+      margin-bottom: 20px;
+      font-size: 22px;
+      font-family: $SourceSansPro-Bold;
+    }
+
+    input, textarea
+  {
+    padding: 15px;
+    background-color: #4e5c6c;
+    border: none;
+    outline: unset;
+    color: #ffffff;
+    max-width: 100%;
+  }
+ 
+  input::placeholder
+  {
+    font-family: $SourceSansPro-Regular;
+    color: #bdc9d6;
+  }
+  textarea::placeholder
+  {
+    font-family: $SourceSansPro-Regular;
+    color: #bdc9d6;
+  }
+  }
+  form
+  {
+    width: 22.5%;
+  }
+  button
+  {
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    background-color: #00bc9c;
+    font-family: "source_sans_probold";
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}

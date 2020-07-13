@@ -1,0 +1,45 @@
+$section1bgColor: #f5f7fa;
+
+$contactDisplay: flex;
+$contactJustifyContent: space-between;
+
+$contactInfoDisplay: inline-block;
+$contactInfoWidth: 150px;
+
+$contactColor:#506a85; 
+
+#section1
+{
+  background-color: $section1bgColor;
+  padding: 10px 0;
+}
+
+#Contact
+{
+  display: $contactDisplay;
+  justify-content: $contactJustifyContent;
+  color: $contactColor;
+  font-family: $SourceSansPro-Regular;
+}
+
+.Contact_Info
+{
+  display: $contactInfoDisplay;
+  width: $contactInfoWidth;
+}
+
+#Contact2
+{
+  i
+  {
+    margin-right: 22px;
+    cursor: pointer;
+  }
+
+  i:last-child
+  {
+    margin: unset;
+  }
+}
+
+
